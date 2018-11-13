@@ -33,6 +33,9 @@ public class EvosuiteTestUnit implements TestUnit {
         try {
             RunNotifier notifier = new RunNotifier();
             notifier.addFirstListener(new CollectorListener(description, rc));
+            // Overriding these two parameters from the test classes
+            EvoRunner.useClassLoader = false;
+            EvoRunner.useAgent = false;
             EvoRunner runner = new EvoRunner(method.getDeclaringClass());
             runner.filter(new MethodTestFilter(method));
             runner.run(notifier);
