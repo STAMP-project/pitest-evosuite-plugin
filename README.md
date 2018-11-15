@@ -96,3 +96,5 @@ This project is published under LGPL-3.0 (see LICENSE.md for further details).
 
 ## Funding
 This project is partially funded by research project STAMP (European Commission - H2020) 
+
+![STAMP - European Commission - H2020](https://github.com/STAMP-project/pitest-descartes/raw/master/docs/logo_readme_md.png)
